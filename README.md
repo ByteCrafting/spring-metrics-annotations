@@ -1,5 +1,7 @@
 # Spring Metrics Annotations
 
+[![Build](https://github.com/ByteCrafting/spring-metrics-annotations/actions/workflows/build.yml/badge.svg)](https://github.com/ByteCrafting/spring-metrics-annotations/actions/workflows/build.yml)
+
 This application provides an example of using [Spring AOP](https://www.baeldung.com/spring-aop) (Aspect Oriented Programming) to execute code before or after a specific method using custom annotations.
 Additionally, this project demonstrates the usage of  [Micrometer](https://micrometer.io/) for Prometheus to create custom metrics.
 
