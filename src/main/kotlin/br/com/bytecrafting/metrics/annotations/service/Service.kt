@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service
 @Service
 class Service {
 
-    fun execute(value: Long) {
-        Thread.sleep(value)
+    fun execute(millis: Long) {
+        Thread.sleep(millis)
     }
 }

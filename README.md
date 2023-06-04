@@ -10,10 +10,10 @@ To build and run the application, you can use either an IDE or Maven.
 Once the application is running, you can execute the following curl commands to interact with the endpoints:
 
 ```shell
-curl --request POST \
+curl --request GET \
   --url http://localhost:9002/api/examples
   
-curl --request POST \
+curl --request GET \
   --url http://localhost:9002/api/examples/others
   
 curl --request GET \
